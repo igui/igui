@@ -1,0 +1,20 @@
+{
+  "name": "igui",
+  "version": "1.0.0",
+  "description": "My npm-ish business card.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/igui/igui"
+  },
+  "keywords": [
+    "person",
+    "contact"
+  ],  
+  "main": "index.json",
+  "author": "Igui",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "node -e \"console.log(require('igui'))\""
+  }
+}
+
